@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <!-- redirect js -->
+    <script>
+        // パラメータを取得
+        const url = new URL(window.location.href);
+        const params = url.searchParams;
+        const param = params.get('code');
+        // リダイレクト
+        window.location.href = `https://groupydev.page.link/?link=https%3A%2F%2Fgroupy.one%2Finstagram%3Faction%3Dinstagram%26code%3D${param}&apn=one.groupy.product.groupy&isi=1631351199&ibi=one.groupy.product.groupy&ius=one.groupy.product.groupy&cid=5791249516419449266&_icp=1`;
+    </script>
+
+</head>
+<body>
+</body>
+</html>
